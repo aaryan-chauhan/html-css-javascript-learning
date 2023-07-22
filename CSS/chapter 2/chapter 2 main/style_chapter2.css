@@ -1,0 +1,39 @@
+#Quora{
+    color: #B92B27;
+    font-family: Helvetica and Helvetica;
+}
+
+#Quora > button {
+    background-color: #FFA791
+}
+
+div>input{
+    background-color: #A9A6DC;
+}
+
+nav a{
+    color: #A86C6E;
+text-decoration: none;
+    }
+
+    main>span>.upvote{
+        background-color: #A86C6E;
+        color: #F3EED9;
+    }
+
+    main>span>.answer{
+        background-color: #798897;
+        color:#F3EED9
+    }
+
+    p{
+        background-color: #FF8AA3;
+    }
+
+    p a{
+        background-color: #EA5964;
+    }
+
+    main{
+        background-color: #FFBDE3;
+    }

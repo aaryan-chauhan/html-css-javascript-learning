@@ -1,0 +1,76 @@
+#div{
+    height: 100px ;
+    width: 100px;
+    background-color: aqua;
+    border: 10px solid #95B1B0;
+    margin: auto;
+    margin-top: 55px;
+    transform: rotate(-30deg);
+    transition: all .7s ease-out  ;
+    transition-delay: 0.2s;
+}
+
+#div:hover{
+    
+    background-color:#A93800;
+    color: #FFE7D4;
+    border-radius: 50%;
+    border: 2px dashed #BFFCFB;
+    padding-top: 40px ;
+    height: 60px;
+    text-align: center;
+    transform: rotate(0deg);
+    margin-top: 105px  ;
+}
+
+.div{
+    height: 100px ;
+    width: 100px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.name{
+    font-weight: bolder ;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.div:hover{
+    box-shadow: 4px 4px 16px;
+}
+
+#face{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.eyes{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    margin: 20px;
+}
+
+#mouth{
+    height: 40px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 0 0 20px 20px ;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}

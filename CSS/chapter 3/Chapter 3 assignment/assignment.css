@@ -1,0 +1,29 @@
+#div{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    background-color: grey;
+    border: 5px dotted black ;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.divs{
+    font-size: 10px;
+    height: 55px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 45px ;
+}
+
+li{
+    list-style-type: disc;
+    display: inline-block;
+}
