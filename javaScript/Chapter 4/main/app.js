@@ -145,7 +145,17 @@ for (let m = 0; m < students.length; m++) {
 
 //for of loops
 
-let vegetable=["carrot","tomato","gavar"]
+let vegetable = ["carrot", "tomato", "gavar"]
 for (veges of vegetable) {
     console.log(veges);
+}
+
+//loops with nested array
+let superHeros = [["superMan", "batMan", "wonderWomen"], ["spiderMan", "falcon", "ironMan"]]
+
+for (let z = 0; z< superHeros.length; z++) {
+    console.log( z+1, superHeros[z]);
+    for(let y = 0 ; y<=superHeros.length ; y++){
+        console.log(superHeros[z][y]);
+    }
 }
