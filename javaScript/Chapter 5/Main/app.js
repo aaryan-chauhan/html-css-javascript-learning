@@ -64,8 +64,8 @@ const tuitionclass= [
 ];
 
 //random integer from 1-10
-let randomnum = math.floor(math.random()*10)+1;
+let randomnum = Math.floor(Math.random()*10)+1;
 
 //max number game
 const max = prompt("enter the max number");
-const random = math.floor(math.random()*max)+1
+const random = Math.floor(Math.random()*max)+1
