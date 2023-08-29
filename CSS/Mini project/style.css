@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main_box{
+    background: url("photo.jpg");
+    height: 100vh;
+background-size: cover;
+}
+
+.btn_one{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    position:absolute;
+    left: 10px;
+    line-height: 50px;
+}
+
+.sidebar_menu{
+    position: fixed;
+    /* left:-96px; */
+    height: 100vh;
+    width: 220px;
+    background-color: rgba(255, 255, 255 , 0.2);
+    box-shadow: 0 0 4px rgba(255, 255, 255 , 0.7);
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    box-shadow: 0 0 2px rgba(255, 255, 255 , 0.7);
+    width: 100%;
+    line-height: 60px;
+}
+
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.sidebar_menu .btn_two{
+    color: grey;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 200px;
+    font-weight: 700;
+}
+
+.sidebar_menu .menu{
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}

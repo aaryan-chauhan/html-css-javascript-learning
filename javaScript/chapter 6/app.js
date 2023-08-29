@@ -76,3 +76,12 @@ function add(a ,b , c) {
     return a+b+c;
 }
 console.log(add(2,3,4));
+
+//get sum of all numbers before the given number
+function getSum(n) {
+    let sum = 0 ;
+    for(k = 1 ; k<=n ; k++){
+        sum+=k
+    };
+    return sum
+}
