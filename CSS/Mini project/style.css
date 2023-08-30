@@ -15,7 +15,7 @@ background-size: cover;
     font-size: 25px;
     font-weight: 700;
     position:absolute;
-    left: 10px;
+    left: 7px;
     line-height: 50px;
 }
 
@@ -54,8 +54,44 @@ background-size: cover;
 }
 
 .sidebar_menu .menu{
+    position: absolute;
+    top: 70px;
+}
+
+.sidebar_menu .menu li {
     color: white;
     width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar_menu .menu i,a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar_menu .menu i{
+    padding-right: 10px;
+}
+
+.sidebar_menu .social_media{
     position: absolute;
-    top: 50px;
+    bottom: 50px;
+    left: 20%;
+}
+
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: .5;
+    padding-right: 5px;
+}
+
+#check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover {
+
 }
