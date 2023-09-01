@@ -56,13 +56,15 @@ background-size: cover;
 .sidebar_menu .menu{
     position: absolute;
     top: 70px;
+    width: 100%;
 }
 
-.sidebar_menu .menu li {
+.listOfSide{
     color: white;
-    width: 100%;
+    width: 90%;
     margin-top: 15px;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -92,6 +94,6 @@ background-size: cover;
     display: none;
 }
 
-.sidebar_menu .menu li:hover {
-
+.listOfSide:hover {
+    box-shadow: 0 0 2px rgba(255, 255, 255 , 0.7);
 }
