@@ -49,39 +49,39 @@ console.log(dict["grandiloquent"]);
 console.log("Arithmetic operatrs in JavaScript");
 let A = 10;
 
-console.log("++A=" , ++A);
-    console.log("A++=" , A++);
-    
-    console.log("--A=" , --A);
-    console.log("A--=" , A--);
-    console.log("A=" , A);
-    console.log("A++=" , A++);
+console.log("++A=", ++A);
+console.log("A++=", A++);
+
+console.log("--A=", --A);
+console.log("A--=", A--);
+console.log("A=", A);
+console.log("A++=", A++);
 
 //Assignment operators in js
 console.log("Assignment operatrs in JavaScript");
-let assignment=2;
+let assignment = 2;
 console.log(assignment);
-console.log("assignment + 5 =", assignment +=5);
-console.log("assignment - 1 =", assignment -=1);
-console.log("assignment * 5 =", assignment *=5);
-console.log("assignment / 2 =", assignment /=2);
+console.log("assignment + 5 =", assignment += 5);
+console.log("assignment - 1 =", assignment -= 1);
+console.log("assignment * 5 =", assignment *= 5);
+console.log("assignment / 2 =", assignment /= 2);
 
 //conditional statement
 let age = prompt("pls enter you age");
-age=parseInt(age)
-if (age<0) {
+age = parseInt(age)
+if (age < 0) {
     console.log("this is invalid age")
-}else if(age<15){
+} else if (age < 15) {
     console.log("you can't think of start learning to drive")
 }
-else if(age>=15&& age<18){
+else if (age >= 15 && age < 18) {
     console.log("you can think of start learning to drive")
 }
-else if(age>=18){
+else if (age >= 18) {
     console.log("you can drive")
 }
 
 //eranary oprater
 let num = prompt("enter your age")
-num=parseInt(num)
-console.log("you can " ,num>18? "drive":"not drive" );
+num = parseInt(num)
+console.log("you can ", num > 18 ? "drive" : "not drive");
