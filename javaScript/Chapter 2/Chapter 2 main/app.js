@@ -195,3 +195,11 @@ switch (day) {
     default:console.log("a week only has 7 days");
         break;
 }
+
+function value(valu){
+    if (valu===7){
+        return "equal"
+    }
+    return "not equal"
+}
+console.log(value(7));
